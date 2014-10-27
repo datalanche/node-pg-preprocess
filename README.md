@@ -1,4 +1,4 @@
-node-pg-preprocessor
+node-pg-preprocess
 ====================
 
-Preprocesses multiple PostgreSQL scripts and intelligently combines them into a single script.
+Pre-process multiple PostgreSQL scripts and combine them into a single script.
