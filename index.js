@@ -173,6 +173,4 @@ function preprocess(fileName) {
     return cmds.join(';\n') + ';';
 }
 
-module.exports = {
-    preprocess: preprocess,
-};
+module.exports = preprocess;
