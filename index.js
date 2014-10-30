@@ -100,7 +100,7 @@ function parseIncludes(parentFile, commands) {
             var str = fs.readFileSync(sqlPath).toString();
             str = stripComments(str);
             var cmds = parseCommands(str);
-            cmds = parseIncludes(parentFile, cmds);
+            cmds = parseIncludes(sqlPath, cmds);
 
             result = result.concat(cmds);
         } else {
